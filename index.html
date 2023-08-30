@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pradip's project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav>
+        <div class="nav-left">
+            <p>NextLab</p>
+        </div>
+        <div class="nav-right">
+            <ul>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Enterprise</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Pricing</a></li>
+                <button id="nav-btn" class="cards-main">Sign Up</button>
+            </ul>
+        </div>
+    </nav>
+    <!-- main section -->
+    <section id="main">
+        <div class="main-header">
+            <h2>Choose Your Web hosting Plan</h2>
+            <p>Everything you need to create your website, Level-up with more power and enhanced features.Enjoy
+                optimised performance & guaranteed resources
+            </p>
+        </div>
+
+        <div class="main-cards">
+            <div class="card cards-main">
+                <div class="card-header">
+                    <h2 class="card-title">Free</h2>
+                </div>
+
+                <div class="card-body">
+                    <h1 class="monthly-fee">&#8377<span>0</span><small class="text-muted">&nbsp;/ mo</small></h1>
+                    <ul class="card-list">
+                        <li>10 users included</li>
+                        <li>2 GB of storage</li>
+                        <li>Email support</li>
+                        <li>Help center access</li>
+                    </ul>
+                    <button class="free-btn form-btn">Sign up for free</button>
+                </div>
+            </div>
+            <div class="card cards-main">
+                <div class="card-header">
+                    <h2 class="card-title">Pro</h2>
+                </div>
+
+                <div class="card-body">
+                    <h1 class="monthly-fee">&#8377<span>199</span><small class="text-muted">&nbsp;/ mo</small></h1>
+                    <ul class="card-list">
+                        <li>20 users included</li>
+                        <li>10 GB of storage</li>
+                        <li>Priority email support</li>
+                        <li>Help center access</li>
+                    </ul>
+                    <button class="card-btn free-btn form-btn">Get started</button>
+                </div>
+            </div>
+            <div class="card cards-main">
+                <div class="card-header">
+                    <h2 class="card-title">Enterprise</h2>
+                </div>
+
+                <div class="card-body">
+                    <h1 class="monthly-fee">&#8377<span>299</span><small class="text-muted">&nbsp;/ mo</small></h1>
+                    <ul class="card-list">
+                        <li>30 users included</li>
+                        <li>15 GB of storage</li>
+                        <li>Phone and email support</li>
+                        <li>Help center access</li>
+                    </ul>
+                    <button class="card-btn free-btn form-btn">Contact us</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- form -->
+    <section class="form slide-form" id="my-form">
+        <div class="contact-form">
+            <h2>Subscribe Now</h2>
+            <form id="my-formdata">
+                <div class="mb-3">
+                    <label for="clientName" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="clientName" name="firstname">
+                </div>
+                <div class="mb-3">
+                    <label for="clientEmail" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="clientEmail" aria-describedby="emailHelp" name="email">
+                    <div id="emailHelp" class="form-text">We will never share your Email and phone with anyone else
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="clientPhone" class="form-label">Phone</label>
+                    <input type="phone" class="form-control" id="clientPhone" name="phonenumber1">
+                </div>
+                <div class="mb-3">
+                    <label for="comment" class="form-label">Comment</label>
+                    <input type="text" class="form-control" id="comment" name="message">
+                </div>
+                <button type="submit" class="submit-button">Submit</button>
+                <div id="close-btn">&#xD7</div>
+
+            </form>
+        </div>
+    </section>
+    <!-- slider -->
+    <section id="slider">
+        <div class="card card-slider">
+            <div class="card-header">
+                <h2 class="card-title ct-slider">Enterprise</h2>
+            </div>
+
+            <div class="card-body">
+                <h1 class="monthly-fee">&#8377<span id="rupees">299</span><small class="text-muted">&nbsp;/ mo</small>
+                </h1>
+                <ul class="card-list card-list-slider">
+                    <li class="info-list">30 users included</li>
+                    <li class="info-list">15 GB of storage</li>
+                    <li class="info-list">Phone and email support</li>
+                    <li class="info-list">Help center access</li>
+                </ul>
+                <button class="card-btn free-btn form-btn slide-btn">Get Started</button>
+            </div>
+            <span id="slide-left"><i class="fas fa-chevron-left"></i></span>
+            <span id="slide-right"><i class="fa-solid fa-chevron-right"></i></span>
+        </div>
+        <div id="close-btn" class="modal-clr">&#xD7</div>
+    </section>
+
+        <h1 class="mid-header">Generated Random Data</h1>
+        <!-- news articles -->
+
+        <div class="cards-container" id="cards-container">
+            <article id="template-news-card">
+                <a href="" class="data-url" target="_blank">
+                    <div class="news-card">
+                        <div class="news-card-header">
+                            <img src="https://via.placeholder.com/400x200" alt="news-image" id="news-img">
+                        </div>
+                        <div class="card-content">
+                            <h3 id="news-title">This is the Title</h3>
+                            <h6 class="news-source" id="news-source">End Gadget 26/08/2023</h6>
+                            <p class="news-desc" id="news-desc">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                elit.
+                                Recusandae saepe quis voluptatum quisquam vitae doloremque facilis molestias quae
+                                ratione
+                                cumque!</p>
+                        </div>
+                    </div>
+                </a>
+            </article>
+        </div>
+        <div class="midway">
+        <i class="fa fa-arrow-down"></i>
+        <h1 id="lazy-header">Below contents are downloaded after you reached the bottom</h1>
+        <i class="fa fa-arrow-down"></i>
+    </div>
+        <div class="ecom-container" id="ecom-container">
+        </div>
+            <footer>
+            <div class="footer-center">
+                <div class="footer-content">
+                    <div class="footer-logo"><img src="images/logo2.png" alt=""></div>
+                    <div><span id="footer-span"></span></div>
+                    <p class="footer-text">Copyright &copy 2023 Voyager.com</p>
+                </div>
+                <div class="footer-logo-link">
+                    <div class="footer-img">
+                        <a href="https://www.linkedin.com/in/pradip-das-4a87a111a/" target="_blank" rel="noopener noreferrer">
+                        <img src="images/linkedin.svg" alt=""></a>
+                    </div>
+                    <div class="footer-img">
+                        <a href="https://www.facebook.com/pradipdas111?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer"><img src="images/facebook-f.svg" alt=""></a>
+                    </div>
+
+                    <div class="footer-img">
+                        <a href="https://www.instagram.com/pradeep_das____/" target="_blank" rel="noopener noreferrer">
+                        <img src="images/instagram.svg" alt=""></a>
+                    </div>
+                    <div class="footer-img">
+                        <a href="https://www.instagram.com/pradeep_das____/" target="_blank" rel="noopener noreferrer">
+                        <img src="images/telegram.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+</body>
+<script src="app.js"></script>
+
+</html>

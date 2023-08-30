@@ -1,0 +1,37 @@
+{
+"cards":[
+    {
+        "header": "Free",
+        "price":0,
+        "li1":"10 users included",
+        "li2":"2 GB storage",
+        "li3":"Email support",
+        "li4":"Help center access",
+        "button":"Sign up for free"
+        
+    },
+    
+    {
+        "header": "Pro",
+        "price":199,
+        "li1":"20 users included",
+        "li2":"10 GB storage",
+        "li3":"Priority Email support",
+        "li4":"Help center access",
+        "button":"Get Started"
+        
+    },
+    {
+        "header": "Enterprise",
+        "price":299,
+        "li1":"30 users included",
+        "li2":"15 GB storage",
+        "li3":"Phone and Email support",
+        "li4":"Help center access",
+        "button":"Contact Us"
+        
+    }
+    
+]
+
+}
